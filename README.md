@@ -18,7 +18,7 @@ Description: A professional and responsive landing page for a sample product or 
 Features:  Eye-catching layout
            CTA button and responsive sections
            
-Live Demo: (https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/TASK2/LANDING PAGE)
+Live Demo: (https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/TASK2)
 
 ✅ Task 3: Calculator App
 Description: A fully functional calculator with support for basic arithmetic and dark/light mode.
