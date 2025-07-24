@@ -172,7 +172,7 @@ hr{
     justify-content: space-between;
     max-width: 800px;
     margin: auto;
-    gap: 20px;
+    gap: 40px;
     flex-wrap: wrap;
         transition: transform 0.4s ease, background-color 0.4s ease;
 
