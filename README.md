@@ -10,7 +10,7 @@ Features:    Responsive design
              Interactive navigation
              Social links and contact form
 
-Live Demo: PORTFOLIO(https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/TASK1/PORTFOLIO)
+Live Demo: [PORTFOLIO](https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/TASK1/PORTFOLIO)
 
 ✅ Task 2: Landing Page
 Description: A professional and responsive landing page for a sample product or brand.
@@ -18,7 +18,7 @@ Description: A professional and responsive landing page for a sample product or 
 Features:  Eye-catching layout
            CTA button and responsive sections
            
-Live Demo: LANDING_PAGE(https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/LANDING%20PAGE)
+Live Demo: [LANDING_PAGE](https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/LANDING%20PAGE)
 
 ✅ Task 3: Calculator App
 Description: A fully functional calculator with support for basic arithmetic and dark/light mode.
@@ -29,7 +29,7 @@ Features:  Responsive layout
 
 
 
-Live Demo: CALCULATOR(https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/TASK3/CALCULATOR)
+Live Demo: [CALCULATOR](https://github.com/aditya-kumar2048/CODSOFT/tree/main/CODSOFT/LEVEL%201/TASK3/CALCULATOR)
 
 📌 Notes
 All projects are submitted under the guidelines of CODSOFT Web Development Internship.
