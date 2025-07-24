@@ -1,0 +1,47 @@
+    body {
+      background: linear-gradient(to bottom right, #fffaf0, #f0faff);
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .motivation-section {
+      padding: 5% 10%;
+      text-align: center;
+    }
+    .motivation-cards {
+        margin-top: 15px;
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+      padding: 2rem;
+      width: 300px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+    }
+    .card i {
+      font-size: 2rem;
+      color: #3498db;
+      margin-bottom: 1rem;
+    }
+    .card a {
+      margin-top: 1rem;
+      display: inline-block;
+      background-color: #3498db;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 30px;
+      text-decoration: none;
+    }
+    .card a:hover {
+      background-color: #2980b9;
+    }

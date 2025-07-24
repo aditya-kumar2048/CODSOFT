@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Porfolio</title>
+    <link rel="stylesheet" href="STYLE.css">
+
+</head>
+<body>
+<div class="navbar" onclick="closeMenuOnClickOutside(event)">
+  <div class="nav-container">
+    <h3>Portfolio</h3>
+    <div class="hamburger" onclick="toggleMenu(event)">☰</div>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#project">Projects</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+  </ul>
+</div>
+    <div id="pic"></div>  
+    <!-- photo ko alag frame me add krna h  -->
+
+    <br><br><br>
+    <section id="home">
+<P>        Hello, my name is 
+</P><h1>Aditya Kumar.</h1>
+<h3 id="devop">I'am a Frontend Developer</h3></section>
+<br>
+<hr>
+<br><br><br><br><br>
+<section id="about" class="fade-in">
+    <div class="about-container">
+        <div class="about-text">
+<h2>ABOUT ME</h2>
+<p>
+    Hi! I'm Aditya , a B.Tech 2nd-year student with a strong passion for technology and development. I'm currently diving deep into web development
+    adn always eager to learn more about everything tech-related.
+</p><p> I enjoy building clean , user-friendly websites and love experimenting with new tools and ideas. Weather it's Frontend design or backend logic.
+    I'm excited to keep exploring and improving.
+</p><p>Outside of coding , you'll find me playing football⚽ or vibing to music🎵 - they help me recharge and stay inspired. I'm always open to collaborating
+    on cool projects and constantly pushing my limits.
+</p>
+</div>
+<div class="about-img">
+    <img src="photo3.jpg" alt="Aditya's Photo">
+</div>
+    </div>
+
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+        <div class="flip-card" id="skill-list"><h3>HTML</h3>
+
+                <P>The backbone of all web pages. HTML help me understand how content is structured on the web and gave me confidence to start building websites.
+                    It is like the structure of house.</P>
+        </div>
+        <div class="flip-card" id="skill-list"><h3>CSS</h3>
+                <p>
+                    CSS give life to my HTML . It allowed me to style my pages beautifully and develop a sense of design and layout on the web.
+                    It also help me exploring creativity.
+                </p>    
+        
+        </div>
+        <div class="flip-card" id="skill-list"><h3>JAVA SCRIPT</h3>
+            <p>JS  made my websites interactive . From form validation to cool animations , it opened the door to dynamic web devlopment for me.
+                I made web devlopment exciting.
+            </p>
+        </div>
+        <div class="flip-card" id="skill-list"><h3>C LANGUAGE</h3>
+            <p>
+                My introduction to programming logic . C helped me build a strong foundation in problem solving and understanding how code work at the hardware level.
+
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section id="project">
+    <h2>Projects</h2>
+    <div class="project-list">
+        <h3>Portfolio website</h3>
+        <p>A personal portfolio website built using HTML , CSS , Java script. Fully resposive and animated .</p>
+        <p><strong>Tech:</strong> HTML , CSS ,Java Script </p>
+        <a href="INDEX.html" target="_blank">Live Demo</a>
+        <a href="GIT HUB" target="_blank">Git Hub</a>
+    </div>
+    <div class="project-list">
+        <h3>Landing Page</h3>
+        <p>A Landing page is an ideal web development project for beggnners. It requires basic knowledge of HTML and CSS .
+            It encouraging your creativity .
+        </p>
+        <p><strong>Tech:</strong> HTML , CSS </p>
+        <a href="../LANDING PAGE/INDEX.HTML" target="_blank">Live Demo</a>
+        <a href="GIT HUB" target="_blank">Git Hub</a>
+    </div>
+    <div class="project-list">
+        <h3>Calculator</h3>
+        <p>The calculator should have a display screen to show user input and results. The project requires some skill but can be done with basic knowledge
+            of HTML , CSS , Java Script.
+        </p>
+        <p><strong>Tech:</strong> HTML , CSS ,Java Script </p>
+        <a href="calculator" target="_blank">Live Demo</a>
+        <a href="GIT HUB" target="_blank">Git Hub</a>
+
+    </div>
+    <div class="project-list">
+        <h3>To-Do List App</h3>
+        <p>A simple and interactive to-do list that lets users add , mark as done, and delete tasks. Built using JavaScript DOM manipulation.</p>
+        <p><strong>Tech Used:</strong> HTML , CSS ,Java Script </p>
+        <a href="todolist" target="_blank">Live Demo</a>
+        <a href="GIT HUB" target="_blank">Git Hub</a>
+    </div>
+    <div class="project-list">
+        <h3>Weather App(with API)</h3>
+        <p>A real-time Weather forcast app that fetches data from an external weather API and displays temperature, humidity ,wind speed , and
+            weather conditions based on the user's input city.
+        </p>
+        <p><strong>Tech Used:</strong> HTML , CSS ,Java Script , openWeather API </p>
+        <a href="weather" target="_blank">Live Demo</a>
+        <a href="GIT HUB" target="_blank">Git Hub</a>
+
+    </div>
+
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <p>If you want to know more about my acedemic and technical background, feel free to check out my resume below. </p>
+    <a href="https://drive.google.com/file/d/1Mqy9wTDxR3C1r2Jw9t7FVenC50sxRQss/view?usp=drive_link" target="_blank">📄View/Download Resume</a>
+</section>
+
+<section id="contact">
+  <div class="contact-box">
+    <div class="contact-desc">
+      <h1>Contact Form</h1>
+      <div class="icon-text">
+        <img src="fixed_location.svg" alt="location" />
+        <div>
+          <h5>ADDRESS :</h5>
+          <p>RIT ROORKEE, Puhana, Iqbalpur, Haridwar, 247667</p>
+        </div>
+      </div>
+
+      <div class="icon-text">
+        <img src="fixed_envelope.svg" alt="gmail" />
+        <div>
+          <h5>GMAIL :</h5>
+          <p>adityarajsingh2048@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="icon-text">
+        <a href="https://github.com" target="_blank"><img src="fixed_github.svg" alt="github" /></a>
+        <div>
+          <h5>GITHUB :</h5>
+          <p>aditya_Kumar.github</p>
+        </div>
+      </div>
+
+      <div class="icon-text">
+        <a href="https://linkedin.com" target="_blank"><img src="fixed_linkedin.svg" alt="linkedin" /></a>
+        <div>
+          <h5>LINKEDIN :</h5>
+          <p>aditya_Kumar4927.linkedin.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="feedback">
+      <h2>Get in touch with us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="tel" placeholder="Phone" minlength="10" maxlength="12" required />
+        <input type="text" placeholder="Subject" required />
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" id="btn">Send Message</button>
+      </form>
+      <div id="thankYouMessage" class="hidden"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Aditya Kumar . All rights are reserved  </p>
+    <p>contact on 
+        <a href="https://github.com" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com" target="_blank">Linkedin</a>
+    </p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
+<!-- Task 1 - make it mobile friendly
+ task 2 - add comments where it need
+task 3 there is need of polishing in about section and project section. for about and project section all u need to do is to polish their animation as the transition which use there is not feel comfort , 
+task 4 -  the content b/w about section and navbar that should also been mobile responsive in such way photo should v in bottom of the text , 
+task 5 - and if u could do this can u add flip card animation in skills and project section 
+ task 6 - when we use in big screen when we cllick on navbar it will scroll to that section which section is mention in navigation bar 
+ -->

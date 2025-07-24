@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+background: linear-gradient(135deg, #fbc2eb, #a6c1ee); /* Cotton Candy */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  transition: background 0.3s ease;
+}
+
+body.dark {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+#theme-toggle {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.calculator {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  width: 320px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+body.dark .calculator {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 30px rgba(255,255,255,0.1);
+}
+
+.display {
+  background-color: #222;
+  color: #0f0;
+  font-size: 2.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: right;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+  box-shadow: 0 0 10px #0f0;
+  min-height: 60px;
+}
+
+body.dark .display {
+  box-shadow: 0 0 10px #0f0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  font-size: 1.3rem;
+  background-color: #c5c2c2;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn:hover {
+  filter: brightness(90%);
+}
+
+body.dark .btn {
+  background-color: #333;
+  color: white;
+}
+
+.operator {
+  background-color: #ffb74d;
+  color: white;
+}
+
+.equal {
+  background-color: #4caf50;
+  color: white;
+  grid-column: span 3;
+}
+
+.clear {
+  background-color: #e81f10;
+  color: white;
+}
+
+.delete {
+  background-color: rgb(239, 26, 26);
+  align-items: center;
+  padding: 1px  2px;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 400px) {
+  .calculator {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .display {
+    font-size: 2rem;
+    padding: 0.8rem;
+  }
+
+  .btn {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}

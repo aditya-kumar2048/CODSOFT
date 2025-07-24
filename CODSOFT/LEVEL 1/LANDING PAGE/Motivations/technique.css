@@ -1,0 +1,38 @@
+    body {
+      background: linear-gradient(to bottom right, #f3f8fd, #fef9ff);
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .techniques-section {
+      padding: 5% 10%;
+      text-align: center;
+    }
+    .technique-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .technique-card {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .technique-card:hover {
+      transform: scale(1.03);
+    }
+    .technique-card h3 {
+      font-size: 1.2rem;
+      color: #8e44ad;
+      margin-bottom: 0.5rem;
+    }
+    .technique-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  

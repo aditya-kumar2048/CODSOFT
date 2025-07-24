@@ -1,0 +1,40 @@
+    body {
+      background: linear-gradient(to top left, #f0fff3, #e3f9ff);
+      animation: fadeIn 1.2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .resource-cards .card {
+      animation: floatUp 0.9s ease-out forwards;
+      animation-delay: calc(var(--i) * 0.15s);
+      transform: translateY(30px);
+      opacity: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s;
+      background: linear-gradient(145deg, #ffffff, #e8f4ff);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);   
+     }
+    @keyframes floatUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    .resource-cards .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+            background: linear-gradient(145deg, #f0fff3, #d2e9ff);
+    } 
+    .resource-cards a{
+        text-decoration: none;
+        color: rgb(132, 132, 245);
+    }
+        .resource-cards a:hover{
+            background-color:  #99cdfd;
+            padding: 5px 5px;
+            border-radius: 5px;
+            color: white;
+        }
+
