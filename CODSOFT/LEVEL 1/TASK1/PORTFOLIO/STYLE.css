@@ -117,9 +117,28 @@ h1{
     margin-top: 0px ;
     font-size: 3.8em;
 }
+#home P{
+        background: linear-gradient(30deg , hsl(0, 29%, 85%),hsl(0, 100%, 50%) );
+      background-clip: text ;
+      -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
+
+}
+#home h1{
+    background: linear-gradient(30deg , hsl(0, 29%, 85%),hsl(0, 100%, 50%) );
+      background-clip: text ;
+      -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+}
 #devop{
     margin-left: 70px;
     margin-top: 0px;
+background: linear-gradient(135deg ,  hsl(0, 29%, 85%),hsl(0, 100%, 50%));
+      background-clip: text ;
+      -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
 
 }
 hr{
@@ -365,7 +384,11 @@ hr{
 }
 
 .contact-desc h1 {
-  color: #cba1ff;
+   background: linear-gradient(30deg , hsl(0, 29%, 85%),hsl(343, 85%, 69%) );
+      background-clip: text ;
+      -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
   margin-bottom: 30px;
   text-align: center;
 }
